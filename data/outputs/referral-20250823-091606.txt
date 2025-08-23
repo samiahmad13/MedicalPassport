@@ -1,0 +1,172 @@
+=== Clinical Summary ===
+Mrs. Soumaya Al-Qudsi is a 78-year-old female from Aleppo presenting with chest pain of unclear duration accompanied by recurrent palpitations and generalized fatigue. Her past medical history is significant for longstanding hypertension and an episode of intermittent fever last week; she has no history of diabetes or valvular heart disease. On examination she appears hypotensive with a low blood pressure reading, bradycardic pulse, and a normal respiratory rate; cardiac and pulmonary auscultation are unremarkable, and her abdomen is soft and non-tender. Initial workup includes cardiac enzyme assays, ECG, and a chest X-ray to evaluate for acute coronary syndrome or other cardiopulmonary pathology. She is receiving paracetamol 500 mg as needed for headache and will have daily blood pressure monitoring. The treatment plan emphasizes rest, adequate hydration, and close outpatient follow-up in one week. She has been instructed to return immediately if chest pain intensifies or if she develops severe dizziness.
+
+=== Key Risks ===
+- Acute coronary syndrome
+- Significant bradycardia and potential arrhythmias
+- Persistent hypotension with end-organ underperfusion
+- Dehydration contributing to hypotension and fatigue
+- Recurrent fever or unresolved infection
+- Progression of cardiac rhythm disturbances
+
+=== Patient Summary ===
+السيدة سمية القدسي، 78 عاماً، من حلب، تعاني من ألم في الصدر لمدة غير محددة مصحوب بخفقان متكرر وإرهاق عام. في تاريخها الطبي: ارتفاع ضغط الدم المزمن ونوبة حمى متقطعة الأسبوع الماضي؛ دون تاريخ لمرض السكري أو أمراض صمامات القلب. عند الفحص تبدو منخفضة الضغط مع قراءة ضغط دم منخفضة، ونبض بطيء، ومعدل تنفسي طبيعي؛ وسماع القلب والرئتين طبيعيان، وبطنها لين وغير مؤلم. يشمل الفحص الأولي قياس إنزيمات القلب، وتخطيط كهربائية القلب (ECG)، وأشعة صدر لتقييم المتلازمة التاجية الحادة أو غيرها من أمراض القلب والرئة. تتلقى paracetamol بجرعة 500 ملغ عند الحاجة للصداع، وسيتم مراقبة ضغط الدم يومياً. خطة العلاج تركز على الراحة، والترطيب الكافي، والمتابعة الوثيقة في العيادة الخارجية بعد أسبوع. تم توجيهها للعودة فوراً إذا اشتد ألم الصدر أو ظهرت دوخة شديدة.
+
+=== Key Risks (Patient) ===
+- متلازمة الشريان التاجي الحادة
+- بطء القلب الشديد واضطرابات النظم المحتملة
+- انخفاض ضغط الدم المستمر مع نقص التروية في الأعضاء النهائية
+- يساهم الجفاف في انخفاض ضغط الدم والتعب
+- الحمى المتكررة أو العدوى المستمرة
+- تطور اضطرابات نظم القلب
+
+=== Structured Clinical Data ===
+- Chest pain
+- Palpitations
+- General fatigue
+- Hypertension
+- Intermittent fever
+- Paracetamol 500 mg
+- Cardiac enzyme testing
+- ECG
+- Chest X-ray
+- Blood pressure — 8 mmHg
+- Pulse — 8/min
+- Respiratory rate — 11/min
+- Heart sounds — Normal
+- Lung exam — Clear, no wheezing
+- Abdomen exam — Soft, non-tender
+
+=== Bundle (RAW JSON) ===
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "Chest pain"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "Palpitations"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "General fatigue"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "Hypertension"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "Intermittent fever"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "medicationCodeableConcept": {
+          "text": "Paracetamol 500 mg"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Cardiac enzyme testing"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "ECG"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Chest X-ray"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Blood pressure"
+        },
+        "valueString": "8 mmHg"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Pulse"
+        },
+        "valueString": "8/min"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Respiratory rate"
+        },
+        "valueString": "11/min"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Heart sounds"
+        },
+        "valueString": "Normal"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Lung exam"
+        },
+        "valueString": "Clear, no wheezing"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Abdomen exam"
+        },
+        "valueString": "Soft, non-tender"
+      }
+    }
+  ]
+}

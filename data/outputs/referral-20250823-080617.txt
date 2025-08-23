@@ -1,0 +1,78 @@
+=== Clinical Summary ===
+David Ignacio is an 8-year-old boy from Baja Verapaz, Guatemala who presented with a two-day history of fever, abdominal pain, nausea, vomiting and more than five episodes of liquid diarrhea per day. On examination he was listless, mildly dehydrated, febrile at 38.9 °C and tachycardic with a heart rate of 112 beats/min; his abdomen was soft with mild tenderness. The working diagnosis is acute gastroenteritis. He has been started on oral rehydration therapy to address fluid losses and prevent progression of dehydration. In addition, he is receiving amoxicillin 250 mg every six hours for seven days. He will require close monitoring of his hydration status, intake/output, and vital signs. Education has been provided on recognizing signs of worsening dehydration and on proper preparation and administration of oral rehydration solution.
+
+=== Key Risks ===
+- Progression to moderate or severe dehydration
+- Electrolyte imbalances (e.g., hyponatremia)
+- Adverse effects of antibiotics (e.g., diarrhea, allergic reaction)
+- Development of antibiotic resistance
+- Nutritional deficits due to ongoing gastrointestinal losses
+- Potential for secondary bacterial or viral infections
+
+=== Patient Summary ===
+David Ignacio es un niño de 8 años de Baja Verapaz, Guatemala, que se presentó con dos días de fiebre, dolor abdominal, náuseas, vómitos y más de cinco episodios diarios de diarrea líquida. Al examen estaba letárgico, levemente deshidratado, febril (38,9 °C) y taquicárdico (frecuencia cardiaca de 112 latidos/min); el abdomen estaba blando con leve dolor a la palpación. El diagnóstico de trabajo es gastroenteritis aguda. Se ha iniciado terapia de rehidratación oral para compensar las pérdidas de líquidos y prevenir la progresión de la deshidratación. Además, está recibiendo amoxicilina 250 mg cada seis horas durante siete días. Requerirá monitorización estrecha de su estado de hidratación, del balance hídrico y de los signos vitales. Se ha brindado educación sobre el reconocimiento de signos de empeoramiento de la deshidratación y sobre la correcta preparación y administración de la solución de rehidratación oral.
+
+=== Key Risks (Patient) ===
+- Progresión a deshidratación moderada o grave.
+- Desequilibrios de electrolitos (p. ej., hiponatremia)
+- Efectos adversos de los antibióticos (p. ej., diarrea, reacción alérgica)
+- Desarrollo de resistencia a los antibióticos
+- Déficits nutricionales debidos a pérdidas gastrointestinales continuas
+- Potencial de infecciones bacterianas o virales secundarias
+
+=== Structured Clinical Data ===
+- Acute gastroenteritis
+- Oral rehydration
+- Amoxicillin 250 mg every 6 hours for 7 days
+- Temperature — 38.9°C
+- Heart rate — 112/min
+
+=== Bundle (RAW JSON) ===
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "code": {
+          "text": "Acute gastroenteritis"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "medicationCodeableConcept": {
+          "text": "Oral rehydration"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "medicationCodeableConcept": {
+          "text": "Amoxicillin 250 mg every 6 hours for 7 days"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Temperature"
+        },
+        "valueString": "38.9°C"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "code": {
+          "text": "Heart rate"
+        },
+        "valueString": "112/min"
+      }
+    }
+  ]
+}

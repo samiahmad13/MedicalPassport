@@ -1,0 +1,17 @@
+a2a-sdk[http-server]
+a2a
+mcp
+fastapi
+uvicorn
+pydantic
+httpx
+pillow
+pytesseract
+reportlab
+python-dotenv
+PyYAML
+openai
+langdetect
+arabic-reshaper
+python-bidi
+httpx
